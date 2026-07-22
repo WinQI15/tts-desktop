@@ -26,6 +26,8 @@
 # 1. 克隆仓库
 git clone https://github.com/WinQI15/tts-desktop.git
 cd tts-desktop
+# 弹出git : 无法将“git”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。
+# 需要先安装 Git for Windows, 下载地址 https://git-scm.com/download/win
 
 # 2. 安装依赖
 pip install -r requirements.txt
