@@ -1,0 +1,41 @@
+# ── Python 缓存 ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── 便携依赖 (8+ GB, 通过 pip 安装) ──
+vendor/
+
+# ── AI 模型权重 (3+ GB, 运行时自动下载) ──
+models/OmniVoice/
+
+# ── 用户数据 ──
+models/cloned_voices.json
+
+# ── 测试输出 ──
+_*.mp3
+_*.wav
+
+# ── 打包产物 ──
+dist/
+build/
+*.egg-info/
+*.spec
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db
+*.log
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── 环境 ──
+.env
+.venv/
+venv/
